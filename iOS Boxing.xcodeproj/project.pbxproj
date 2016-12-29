@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E22B368C1E155378009F300F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B368B1E155378009F300F /* AppDelegate.swift */; };
+		E22B368E1E155378009F300F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E22B368D1E155378009F300F /* GameScene.sks */; };
+		E22B36901E155378009F300F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E22B368F1E155378009F300F /* Actions.sks */; };
+		E22B36921E155378009F300F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36911E155378009F300F /* GameScene.swift */; };
+		E22B36941E155378009F300F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36931E155378009F300F /* GameViewController.swift */; };
+		E22B36971E155378009F300F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22B36951E155378009F300F /* Main.storyboard */; };
+		E22B36991E155378009F300F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22B36981E155378009F300F /* Assets.xcassets */; };
+		E22B369C1E155378009F300F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22B369A1E155378009F300F /* LaunchScreen.storyboard */; };
+		E22B36A71E155378009F300F /* iOS_BoxingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36A61E155378009F300F /* iOS_BoxingTests.swift */; };
+		E22B36B21E155378009F300F /* iOS_BoxingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36B11E155378009F300F /* iOS_BoxingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E22B36A31E155378009F300F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E22B36801E155378009F300F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22B36871E155378009F300F;
+			remoteInfo = "iOS Boxing";
+		};
+		E22B36AE1E155378009F300F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E22B36801E155378009F300F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E22B36871E155378009F300F;
+			remoteInfo = "iOS Boxing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E22B36881E155378009F300F /* iOS Boxing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Boxing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22B368B1E155378009F300F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E22B368D1E155378009F300F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E22B368F1E155378009F300F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E22B36911E155378009F300F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E22B36931E155378009F300F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E22B36961E155378009F300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E22B36981E155378009F300F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E22B369B1E155378009F300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E22B369D1E155378009F300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22B36A21E155378009F300F /* iOS BoxingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS BoxingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22B36A61E155378009F300F /* iOS_BoxingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_BoxingTests.swift; sourceTree = "<group>"; };
+		E22B36A81E155378009F300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22B36AD1E155378009F300F /* iOS BoxingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS BoxingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E22B36B11E155378009F300F /* iOS_BoxingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_BoxingUITests.swift; sourceTree = "<group>"; };
+		E22B36B31E155378009F300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E22B36851E155378009F300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22B369F1E155378009F300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22B36AA1E155378009F300F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E22B367F1E155378009F300F = {
+			isa = PBXGroup;
+			children = (
+				E22B368A1E155378009F300F /* iOS Boxing */,
+				E22B36A51E155378009F300F /* iOS BoxingTests */,
+				E22B36B01E155378009F300F /* iOS BoxingUITests */,
+				E22B36891E155378009F300F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E22B36891E155378009F300F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E22B36881E155378009F300F /* iOS Boxing.app */,
+				E22B36A21E155378009F300F /* iOS BoxingTests.xctest */,
+				E22B36AD1E155378009F300F /* iOS BoxingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22B368A1E155378009F300F /* iOS Boxing */ = {
+			isa = PBXGroup;
+			children = (
+				E22B368B1E155378009F300F /* AppDelegate.swift */,
+				E22B368D1E155378009F300F /* GameScene.sks */,
+				E22B368F1E155378009F300F /* Actions.sks */,
+				E22B36911E155378009F300F /* GameScene.swift */,
+				E22B36931E155378009F300F /* GameViewController.swift */,
+				E22B36951E155378009F300F /* Main.storyboard */,
+				E22B36981E155378009F300F /* Assets.xcassets */,
+				E22B369A1E155378009F300F /* LaunchScreen.storyboard */,
+				E22B369D1E155378009F300F /* Info.plist */,
+			);
+			path = "iOS Boxing";
+			sourceTree = "<group>";
+		};
+		E22B36A51E155378009F300F /* iOS BoxingTests */ = {
+			isa = PBXGroup;
+			children = (
+				E22B36A61E155378009F300F /* iOS_BoxingTests.swift */,
+				E22B36A81E155378009F300F /* Info.plist */,
+			);
+			path = "iOS BoxingTests";
+			sourceTree = "<group>";
+		};
+		E22B36B01E155378009F300F /* iOS BoxingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E22B36B11E155378009F300F /* iOS_BoxingUITests.swift */,
+				E22B36B31E155378009F300F /* Info.plist */,
+			);
+			path = "iOS BoxingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E22B36871E155378009F300F /* iOS Boxing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22B36B61E155378009F300F /* Build configuration list for PBXNativeTarget "iOS Boxing" */;
+			buildPhases = (
+				E22B36841E155378009F300F /* Sources */,
+				E22B36851E155378009F300F /* Frameworks */,
+				E22B36861E155378009F300F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Boxing";
+			productName = "iOS Boxing";
+			productReference = E22B36881E155378009F300F /* iOS Boxing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E22B36A11E155378009F300F /* iOS BoxingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22B36B91E155378009F300F /* Build configuration list for PBXNativeTarget "iOS BoxingTests" */;
+			buildPhases = (
+				E22B369E1E155378009F300F /* Sources */,
+				E22B369F1E155378009F300F /* Frameworks */,
+				E22B36A01E155378009F300F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22B36A41E155378009F300F /* PBXTargetDependency */,
+			);
+			name = "iOS BoxingTests";
+			productName = "iOS BoxingTests";
+			productReference = E22B36A21E155378009F300F /* iOS BoxingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E22B36AC1E155378009F300F /* iOS BoxingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E22B36BC1E155378009F300F /* Build configuration list for PBXNativeTarget "iOS BoxingUITests" */;
+			buildPhases = (
+				E22B36A91E155378009F300F /* Sources */,
+				E22B36AA1E155378009F300F /* Frameworks */,
+				E22B36AB1E155378009F300F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E22B36AF1E155378009F300F /* PBXTargetDependency */,
+			);
+			name = "iOS BoxingUITests";
+			productName = "iOS BoxingUITests";
+			productReference = E22B36AD1E155378009F300F /* iOS BoxingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E22B36801E155378009F300F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tevin Scott";
+				TargetAttributes = {
+					E22B36871E155378009F300F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E22B36A11E155378009F300F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E22B36871E155378009F300F;
+					};
+					E22B36AC1E155378009F300F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E22B36871E155378009F300F;
+					};
+				};
+			};
+			buildConfigurationList = E22B36831E155378009F300F /* Build configuration list for PBXProject "iOS Boxing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E22B367F1E155378009F300F;
+			productRefGroup = E22B36891E155378009F300F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E22B36871E155378009F300F /* iOS Boxing */,
+				E22B36A11E155378009F300F /* iOS BoxingTests */,
+				E22B36AC1E155378009F300F /* iOS BoxingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E22B36861E155378009F300F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22B36971E155378009F300F /* Main.storyboard in Resources */,
+				E22B368E1E155378009F300F /* GameScene.sks in Resources */,
+				E22B36991E155378009F300F /* Assets.xcassets in Resources */,
+				E22B369C1E155378009F300F /* LaunchScreen.storyboard in Resources */,
+				E22B36901E155378009F300F /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22B36A01E155378009F300F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22B36AB1E155378009F300F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E22B36841E155378009F300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22B36921E155378009F300F /* GameScene.swift in Sources */,
+				E22B36941E155378009F300F /* GameViewController.swift in Sources */,
+				E22B368C1E155378009F300F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22B369E1E155378009F300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22B36A71E155378009F300F /* iOS_BoxingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22B36A91E155378009F300F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22B36B21E155378009F300F /* iOS_BoxingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E22B36A41E155378009F300F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22B36871E155378009F300F /* iOS Boxing */;
+			targetProxy = E22B36A31E155378009F300F /* PBXContainerItemProxy */;
+		};
+		E22B36AF1E155378009F300F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E22B36871E155378009F300F /* iOS Boxing */;
+			targetProxy = E22B36AE1E155378009F300F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E22B36951E155378009F300F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22B36961E155378009F300F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E22B369A1E155378009F300F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E22B369B1E155378009F300F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E22B36B41E155378009F300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E22B36B51E155378009F300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E22B36B71E155378009F300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Boxing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-Boxing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E22B36B81E155378009F300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Boxing/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-Boxing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E22B36BA1E155378009F300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS BoxingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-BoxingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Boxing.app/iOS Boxing";
+			};
+			name = Debug;
+		};
+		E22B36BB1E155378009F300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS BoxingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-BoxingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Boxing.app/iOS Boxing";
+			};
+			name = Release;
+		};
+		E22B36BD1E155378009F300F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iOS BoxingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-BoxingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS Boxing";
+			};
+			name = Debug;
+		};
+		E22B36BE1E155378009F300F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "iOS BoxingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-BoxingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "iOS Boxing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E22B36831E155378009F300F /* Build configuration list for PBXProject "iOS Boxing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22B36B41E155378009F300F /* Debug */,
+				E22B36B51E155378009F300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E22B36B61E155378009F300F /* Build configuration list for PBXNativeTarget "iOS Boxing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22B36B71E155378009F300F /* Debug */,
+				E22B36B81E155378009F300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E22B36B91E155378009F300F /* Build configuration list for PBXNativeTarget "iOS BoxingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22B36BA1E155378009F300F /* Debug */,
+				E22B36BB1E155378009F300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E22B36BC1E155378009F300F /* Build configuration list for PBXNativeTarget "iOS BoxingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22B36BD1E155378009F300F /* Debug */,
+				E22B36BE1E155378009F300F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E22B36801E155378009F300F /* Project object */;
+}
