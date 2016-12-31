@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2078F5E1E17ED0F008BBC3C /* Glove.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2078F5D1E17ED0F008BBC3C /* Glove.swift */; };
 		E22B368C1E155378009F300F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B368B1E155378009F300F /* AppDelegate.swift */; };
-		E22B368E1E155378009F300F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E22B368D1E155378009F300F /* GameScene.sks */; };
 		E22B36901E155378009F300F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E22B368F1E155378009F300F /* Actions.sks */; };
-		E22B36921E155378009F300F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36911E155378009F300F /* GameScene.swift */; };
 		E22B36941E155378009F300F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36931E155378009F300F /* GameViewController.swift */; };
 		E22B36971E155378009F300F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22B36951E155378009F300F /* Main.storyboard */; };
-		E22B36991E155378009F300F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E22B36981E155378009F300F /* Assets.xcassets */; };
 		E22B369C1E155378009F300F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E22B369A1E155378009F300F /* LaunchScreen.storyboard */; };
 		E22B36A71E155378009F300F /* iOS_BoxingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36A61E155378009F300F /* iOS_BoxingTests.swift */; };
 		E22B36B21E155378009F300F /* iOS_BoxingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36B11E155378009F300F /* iOS_BoxingUITests.swift */; };
+		E22B36C01E15560D009F300F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22B36BF1E15560D009F300F /* GameScene.swift */; };
+		E22B36C21E15570A009F300F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E22B36C11E15570A009F300F /* GameScene.sks */; };
+		E29BB3B71E17CACA007D5ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29BB3B61E17CACA007D5ECF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2078F5D1E17ED0F008BBC3C /* Glove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Glove.swift; sourceTree = "<group>"; };
 		E22B36881E155378009F300F /* iOS Boxing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Boxing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22B368B1E155378009F300F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E22B368D1E155378009F300F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E22B368F1E155378009F300F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		E22B36911E155378009F300F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E22B36931E155378009F300F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E22B36961E155378009F300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E22B36981E155378009F300F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E22B369B1E155378009F300F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E22B369D1E155378009F300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E22B36A21E155378009F300F /* iOS BoxingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS BoxingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +52,9 @@
 		E22B36AD1E155378009F300F /* iOS BoxingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS BoxingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22B36B11E155378009F300F /* iOS_BoxingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_BoxingUITests.swift; sourceTree = "<group>"; };
 		E22B36B31E155378009F300F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E22B36BF1E15560D009F300F /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E22B36C11E15570A009F300F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E29BB3B61E17CACA007D5ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				E22B368B1E155378009F300F /* AppDelegate.swift */,
-				E22B368D1E155378009F300F /* GameScene.sks */,
 				E22B368F1E155378009F300F /* Actions.sks */,
-				E22B36911E155378009F300F /* GameScene.swift */,
+				E22B36BF1E15560D009F300F /* GameScene.swift */,
+				E22B36C11E15570A009F300F /* GameScene.sks */,
 				E22B36931E155378009F300F /* GameViewController.swift */,
 				E22B36951E155378009F300F /* Main.storyboard */,
-				E22B36981E155378009F300F /* Assets.xcassets */,
 				E22B369A1E155378009F300F /* LaunchScreen.storyboard */,
 				E22B369D1E155378009F300F /* Info.plist */,
+				E29BB3B61E17CACA007D5ECF /* Assets.xcassets */,
+				E2078F5D1E17ED0F008BBC3C /* Glove.swift */,
 			);
 			path = "iOS Boxing";
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					E22B36871E155378009F300F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z77JDD3BWU;
 						ProvisioningStyle = Automatic;
 					};
 					E22B36A11E155378009F300F = {
@@ -242,10 +246,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E22B36971E155378009F300F /* Main.storyboard in Resources */,
-				E22B368E1E155378009F300F /* GameScene.sks in Resources */,
-				E22B36991E155378009F300F /* Assets.xcassets in Resources */,
+				E22B36C21E15570A009F300F /* GameScene.sks in Resources */,
 				E22B369C1E155378009F300F /* LaunchScreen.storyboard in Resources */,
 				E22B36901E155378009F300F /* Actions.sks in Resources */,
+				E29BB3B71E17CACA007D5ECF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22B36921E155378009F300F /* GameScene.swift in Sources */,
 				E22B36941E155378009F300F /* GameViewController.swift in Sources */,
+				E22B36C01E15560D009F300F /* GameScene.swift in Sources */,
 				E22B368C1E155378009F300F /* AppDelegate.swift in Sources */,
+				E2078F5E1E17ED0F008BBC3C /* Glove.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +427,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z77JDD3BWU;
 				INFOPLIST_FILE = "iOS Boxing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-Boxing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,7 +441,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z77JDD3BWU;
 				INFOPLIST_FILE = "iOS Boxing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Digital-Lexicon.iOS-Boxing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +524,7 @@
 				E22B36B81E155378009F300F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E22B36B91E155378009F300F /* Build configuration list for PBXNativeTarget "iOS BoxingTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				E22B36BB1E155378009F300F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E22B36BC1E155378009F300F /* Build configuration list for PBXNativeTarget "iOS BoxingUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +542,7 @@
 				E22B36BE1E155378009F300F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
